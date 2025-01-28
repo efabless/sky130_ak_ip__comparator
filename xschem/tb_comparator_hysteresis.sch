@@ -1,4 +1,4 @@
-v {xschem version=3.1.0 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -217,7 +217,7 @@ C {devices/lab_pin.sym} -1000 40 1 0 {name=p28 sig_type=std_logic lab=trim[5]}
 C {devices/vsource.sym} -940 90 0 0 {name=Vtrim4 value=0}
 C {devices/gnd.sym} -940 120 0 0 {name=l16 lab=GND}
 C {devices/lab_pin.sym} -940 40 1 0 {name=p29 sig_type=std_logic lab=trim[4]}
-C {comparator.sym} 320 -200 0 0 {name=x1}
+C {sky130_ak_ip__comparator.sym} 320 -200 0 0 {name=x1}
 C {devices/lab_pin.sym} 360 370 0 1 {name=p24 sig_type=std_logic lab=Vin_diff}
 C {devices/res.sym} 360 430 0 0 {name=R1
 value=1Meg

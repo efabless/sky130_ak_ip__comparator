@@ -2626,7 +2626,7 @@ C {devices/lab_pin.sym} 660 -550 0 1 {name=p120 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 1520 -550 0 0 {name=p121 sig_type=std_logic lab=AVDD}
 C {devices/lab_pin.sym} 660 -430 0 1 {name=p123 sig_type=std_logic lab=AGND}
 C {devices/lab_pin.sym} 1520 -430 0 0 {name=p125 sig_type=std_logic lab=AGND}
-C {devices/lab_pin.sym} 1360 -250 2 1 {name=p44 sig_type=std_logic lab=Vom}
+C {devices/lab_pin.sym} 1360 -250 2 1 {name=p44 sig_type=std_logic lab=Vop}
 C {devices/lab_pin.sym} 840 -250 2 0 {name=p77 sig_type=std_logic lab=Vom}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} 2720 1750 0 0 {name=M84
 L=1

@@ -96,14 +96,12 @@ VDD_LV                                     |VDD_LV
 x_lv                                       |x_lv                                       
 x_hv                                       |x_hv                                       
 xb_hv                                      |xb_hv                                      
-m1_380_440#                                |(no matching pin)                          
+m1_380_440#                                |(no pin, node is xb_lv)                    
 GND_HV                                     |GND_HV                                     
 VDD_HV                                     |VDD_HV                                     
-m1_380_440#                                |(no matching pin)                          
 ---------------------------------------------------------------------------------------
 Cell pin lists for level_shifter_up and level_shifter_up altered to match.
 Device classes level_shifter_up and level_shifter_up are equivalent.
-  Flattening non-matched subcircuits level_shifter_up level_shifter_up
 Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_RUG6CB in circuit sky130_ak_ip__comparator (0)(1 instance)
 Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_M7X63G in circuit sky130_ak_ip__comparator (0)(64 instances)
 Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_REE66T in circuit sky130_ak_ip__comparator (0)(2 instances)
@@ -151,12 +149,13 @@ Class sky130_ak_ip__comparator (1):  Merged 8 parallel devices.
 Subcircuit summary:
 Circuit 1: sky130_ak_ip__comparator        |Circuit 2: sky130_ak_ip__comparator        
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_g5v0d10v5 (976->87)     |sky130_fd_pr__pfet_g5v0d10v5 (958->87)     
-sky130_fd_pr__nfet_g5v0d10v5 (583->103)    |sky130_fd_pr__nfet_g5v0d10v5 (569->103)    
+level_shifter_up (9)                       |level_shifter_up (9)                       
+sky130_fd_pr__pfet_g5v0d10v5 (949->60)     |sky130_fd_pr__pfet_g5v0d10v5 (931->60)     
+sky130_fd_pr__nfet_g5v0d10v5 (556->76)     |sky130_fd_pr__nfet_g5v0d10v5 (542->76)     
 sky130_fd_pr__res_high_po_2p85 (14->3)     |sky130_fd_pr__res_high_po_2p85 (6->3)      
 sky130_fd_pr__pfet_01v8 (7->5)             |sky130_fd_pr__pfet_01v8 (7->5)             
 sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
-Number of devices: 201                     |Number of devices: 201                     
+Number of devices: 156                     |Number of devices: 156                     
 Number of nets: 127                        |Number of nets: 127                        
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
@@ -165,22 +164,22 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: sky130_ak_ip__comparator        |Circuit 2: sky130_ak_ip__comparator        
 -------------------------------------------|-------------------------------------------
-Vout                                       |Vout                                       
 ibias                                      |ibias                                      
 AGND                                       |AGND                                       
 DGND                                       |DGND                                       
 DVDD                                       |DVDD                                       
-Vinp                                       |Vinp                                       
 Vinm                                       |Vinm                                       
+Vinp                                       |Vinp                                       
+Vout                                       |Vout                                       
 trim[1]                                    |trim[1]                                    
 trim[0]                                    |trim[0]                                    
+en                                         |en                                         
 hyst[1]                                    |hyst[1]                                    
 hyst[0]                                    |hyst[0]                                    
-trim[5]                                    |trim[5]                                    
-trim[2]                                    |trim[2]                                    
 trim[4]                                    |trim[4]                                    
 trim[3]                                    |trim[3]                                    
-en                                         |en                                         
+trim[5]                                    |trim[5]                                    
+trim[2]                                    |trim[2]                                    
 AVDD                                       |AVDD                                       
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
